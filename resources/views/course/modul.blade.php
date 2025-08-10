@@ -8,7 +8,7 @@
             <div class="row mb-4">
                 <div class="col-md-12">
                     <div class="card flex-md-row shadow-sm">
-                        <img class="card-img-left flex-auto d-none d-md-block" src="{{ asset('storage/sampul-course/' . $course['courseimg']) }}"
+                        <img class="card-img-left flex-auto d-none d-md-block" src="{{ asset('assets/compiled/sampul-course/' . $course['courseimg']) }}"
                             alt="Course Image" style="width: 200px; object-fit: cover;">
                         <div class="card-body d-flex flex-column">
                             <h5 class="fw-bold mb-1">{{ $course['coursetit'] }}</h5>

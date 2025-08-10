@@ -6,7 +6,7 @@
     {{-- Header Course --}}
     <div class="row mb-4">
         <div class="col-md-4">
-            <img src="{{ asset('storage/sampul-course/tools-teknologi.jpg') }}" class="img-fluid rounded shadow" alt="Course Image">
+            <img src="{{ asset('assets/compiled/sampul-course/tools-teknologi.jpg') }}" class="img-fluid rounded shadow" alt="Course Image">
         </div>
         <div class="col-md-8">
             <h2 class="fw-bold">Penggunaan Tools Teknologi</h2>

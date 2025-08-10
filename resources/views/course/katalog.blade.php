@@ -10,7 +10,7 @@
                     <div class="col-md-12">
                         <div class="card flex-md-row shadow-sm mb-4">
                             <img class="card-img-left flex-auto d-none d-md-block"
-                                src="{{ asset('storage/sampul-course/' . $course['courseimg']) }}" alt="Course Dasar"
+                                src="{{ asset('assets/compiled/sampul-course/' . $course['courseimg']) }}" alt="Course Dasar"
                                 style="width: 200px; object-fit: cover;">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h5 class="mb-1 fw-bold">{{ $course['coursetit'] }}</h5>
@@ -34,7 +34,7 @@
                     <div class="col-md-12">
                         <div class="card flex-md-row shadow-sm mb-4">
                             <img class="card-img-left flex-auto d-none d-md-block"
-                                src="{{ asset('storage/sampul-course/' . $course['courseimg']) }}" alt="Course CMO"
+                                src="{{ asset('assets/compiled/sampul-course/' . $course['courseimg']) }}" alt="Course CMO"
                                 style="width: 200px; object-fit: cover;">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h5 class="mb-1 fw-bold">{{ $course['coursetit'] }}</h5>
@@ -60,7 +60,7 @@
                     <div class="col-md-12">
                         <div class="card flex-md-row shadow-sm mb-4">
                             <img class="card-img-left flex-auto d-none d-md-block"
-                                src="{{ asset('storage/sampul-course/' . $course['courseimg']) }}" alt="Course CTO"
+                                src="{{ asset('assets/compiled/sampul-course/' . $course['courseimg']) }}" alt="Course CTO"
                                 style="width: 200px; object-fit: cover;">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h5 class="mb-1 fw-bold">{{ $course['coursetit'] }}</h5>
@@ -85,7 +85,7 @@
                     <div class="col-md-12">
                         <div class="card flex-md-row shadow-sm mb-4">
                             <img class="card-img-left flex-auto d-none d-md-block"
-                                src="{{ asset('storage/sampul-course/' . $course['courseimg']) }}" alt="Course CEO"
+                                src="{{ asset('assets/compiled/sampul-course/' . $course['courseimg']) }}" alt="Course CEO"
                                 style="width: 200px; object-fit: cover;">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h5 class="mb-1 fw-bold">{{ $course['coursetit'] }}</h5>
